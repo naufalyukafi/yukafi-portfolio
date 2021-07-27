@@ -1,0 +1,88 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "title": "Front End Development",
+            "images": [
+                {
+                    "id": 1,
+                    "url": "./images/logo-card/logo-javascript.png"
+                },
+                {
+                    "id": 2,
+                    "url": "./images/logo-card/logo-react.png"
+                },
+                {
+                    "id": 3,
+                    "url": "./images/logo-card/logo-ts.png"
+                }
+            ],
+            "lists": [
+                {
+                    "id": 1,
+                    "name": "Javascript"
+                },
+                {
+                    "id": 2,
+                    "name": "React JS"
+                },
+                {
+                    "id": 3,
+                    "name": "React TS"
+                },
+                {
+                    "id": 4,
+                    "name": "React Native"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Automated Testing",
+            "images": [
+                {
+                    "id": 4,
+                    "url": "./images/logo-card/logo-testing.png"
+                },
+                {
+                    "id": 5,
+                    "url": "./images/logo-card/logo-jasmine.png"
+                },
+                {
+                    "id": 6,
+                    "url": "./images/logo-card/logo-codecept.png"
+                }
+            ],
+            "lists": [
+                {
+                    "id": 5,
+                    "name": "Jasmine"
+                },
+                {
+                    "id": 6,
+                    "name": "React Testing Library"
+                },
+                {
+                    "id": 7,
+                    "name": "Codecept JS"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Frontend Performance",
+            "images": [
+                {
+                    "id": 7,
+                    "url": "./images/logo-card/logo-react.png"
+                }
+            ],
+            "lists": [
+                {
+                    "id": 8,
+                    "name": "Chrome DevTools"
+                }
+            ]
+        }
+    ]
+}
