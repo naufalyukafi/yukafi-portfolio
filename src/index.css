@@ -248,14 +248,9 @@ main {
   font-weight: bold;
   font-size: 18px;
   margin-top: 16px;
-  background-color: var(--primary-color);
-  color: #fff;
   padding: 10px;
-  border-radius: 10px;
-}
-
-.post-item__title:hover {
-  opacity: 0.5;
+  border: 2px solid var(--primary-color);
+  /* border-bottom: 2px solid var(--primary-color); */
 }
 
 .post-item_link {
@@ -273,10 +268,90 @@ main {
   list-style: none;
   padding: 10px 0;
   border-bottom: 1px solid #eee;
-  text-align: center;
+  /* text-align: center; */
 }
 
+/* portfoio */
 
+.card__portfolio-description {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.portfolio__item {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.portfolio__item-header {
+  position: relative;
+}
+
+.portfolio__item-header img {
+  object-fit: cover;
+  height: auto;
+}
+
+.portfolio__item .portfolio__item-header .portfolio__item-header-poster {
+  object-position: center;
+  object-fit: cover;
+  min-width: 100%;
+  height: 250px;
+}
+
+.portfolio__item .portfolio__item-header .portfolio__item-header-stack {
+  position: absolute;
+  padding-top: 15px;
+  padding-right: 10px;
+  bottom: 20px;
+  left: 0;
+  display: inline-block;
+  background-color: var(--title-color);
+  color: white;
+}
+
+.portfolio__item .portfolio__item-header .portfolio__item-header-stack .portfolio__item-header-stack-title {
+  margin-left: 10px;
+}
+
+.portfolio__item .portfolio__item-content {
+  padding: 16px;
+}
+
+.portfolio__item .portfolio__item-content {
+  margin: 0 0 10px 0;
+}
+
+.portfolio__item .portfolio__item-content h3 a {
+  color: var(--title-color);
+  text-decoration: none;
+}
+
+.portfolio__item .portfolio__item-content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.portfolio__item-logo {
+  font-size: 24px;
+  width: 100%;
+}
+.portfolio__item-logo-github {
+  margin-right: 20px;
+}
 
 /* 
 *
@@ -394,4 +469,16 @@ main {
     font-size: 28px;
   }
 
+}
+
+@media screen and (min-width: 850px) {
+  .portfolio {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio {
+      grid-template-columns: repeat(4, 1fr);
+  }
 }

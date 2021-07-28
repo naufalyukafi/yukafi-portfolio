@@ -6,7 +6,7 @@ import {
 const Footer = () => (
   <footer className="page-footer">
     <div className="foooter__item">
-      <div className="footer__item-info">Whant to know more? Lets have a chat</div>
+      <div className="footer__item-info">Want to know more? Lets have a chat</div>
       <div className="footer__item-contact">
         <ul>
           <li><a href="mailto:naufalyukafi10@gmail.com" target="_blank" rel="noopener noreferrer"> <MailFilled /> </a></li>
