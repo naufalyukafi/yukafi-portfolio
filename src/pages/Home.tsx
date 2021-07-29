@@ -29,7 +29,9 @@ const Home = () => {
             <p className="headline__description">
               I'm a student who aspires to be a front end engineer, experienced in javascript, typescript, and React. Recently, I studied web performance on a website using web vital for testing.
             </p>
-            <button type="button" className="headline__button">Download CV</button>
+            <a href="https://drive.google.com/file/d/1ENaqolqb4skUZ5jEIePm0ON0VoY-E5-w/view" target="_blank" rel="noopener noreferrer">
+              <button type="button" className="headline__button">Download CV</button>
+            </a>
           </div>
         </article>
         <div className="card__skills">
