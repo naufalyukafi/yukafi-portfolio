@@ -345,6 +345,10 @@ main {
   -webkit-box-orient: vertical;
 }
 
+.portfolio__item .portfolio__item-content p:hover {
+  -webkit-line-clamp: 16;
+}
+
 .portfolio__item-logo {
   font-size: 24px;
   width: 100%;

@@ -13,8 +13,6 @@ const Home = () => {
     getAllPortfolio();
   }, []);
 
-  console.log(portfolio);
-
   return (
     <main>
       <div className="content">

@@ -120,7 +120,7 @@
             "language": "React Typscript",
             "github": "https://github.com/naufalyukafi/Movie-Catalog",
             "website": "",
-            "image": ""
+            "image": "./images/image-portfolio/movie-catalogue.png"
         },
         {
             "id": 5,
@@ -129,7 +129,7 @@
             "language": "React Typscript",
             "github": "https://github.com/naufalyukafi/cashier-app",
             "website": "",
-            "image": ""
+            "image": "./images/image-portfolio/kasir-app.png"
         }
     ]
 }
