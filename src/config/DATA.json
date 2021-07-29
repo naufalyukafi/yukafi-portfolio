@@ -88,43 +88,48 @@
     "portfolio": [
         {
             "id": 1,
-            "title": "Androcenta Publisher",
-            "description": "This website is used to help book publishers and book authors to collect author manuscripts, view book details and many others.",
-            "language": "React Javascript",
-            "github": "https://github.com/Khayals/Web-ACA-Publisher",
-            "website": "https://androcenta-publisher.herokuapp.com/"
-        },
-        {
-            "id": 2,
-            "title": "Movie Catalogue",
-            "description": "website ini memiliki fitur mencari film, melihat detail film, dan masih banyak lagi",
-            "language": "React Typscript",
-            "github": "https://github.com/naufalyukafi/Movie-Catalog",
-            "website": ""
-        },
-        {
-            "id": 3,
-            "title": "Cashier App",
-            "description": "The cashier's website has features for finding food, sorting food, adding it to a food price list, and much more.",
-            "language": "React Typscript",
-            "github": "https://github.com/naufalyukafi/cashier-app",
-            "website": ""
-        },
-        {
-            "id": 4,
-            "title": "Molidu",
-            "description": "Elementary school is still maximizing media antother chat platform in conducting teaching and learning media directly courageous even though it is still not effective because it is either absent, collection of assignments, and discussions carried out in one place. By that's why we provide Molidu as a solution to this problem.",
-            "language": "React Native",
-            "github": "https://github.com/naufalyukafi/molidu",
-            "website": ""
-        },
-        {
-            "id": 5,
             "title": "Golek Resto",
             "description": "Golek Resto, is a website for searching and finding your favorite restaurant, you can search for your favorite food, drink, besides that you can also see reviews of the restaurant you are looking for and you can also save a list of your best restaurant version",
             "language": "PWA",
             "github": "https://github.com/naufalyukafi/molidu",
-            "website": "https://golek-resto.web.app/"
+            "website": "https://golek-resto.web.app/",
+            "image": "./images/image-portfolio/golek-resto.png"
+        },
+        {
+            "id": 2,
+            "title": "Androcenta Publisher",
+            "description": "This website is used to help book publishers and book authors to collect author manuscripts, view book details and many others.",
+            "language": "React Javascript",
+            "github": "https://github.com/Khayals/Web-ACA-Publisher",
+            "website": "https://androcenta-publisher.herokuapp.com/",
+            "image": "./images/image-portfolio/androcenta-publisher.png"
+        },
+        {
+            "id": 3,
+            "title": "Molidu",
+            "description": "Elementary school is still maximizing media antother chat platform in conducting teaching and learning media directly courageous even though it is still not effective because it is either absent, collection of assignments, and discussions carried out in one place. By that's why we provide Molidu as a solution to this problem.",
+            "language": "React Native",
+            "github": "https://github.com/naufalyukafi/molidu",
+            "website": "",
+            "image": "./images/image-portfolio/molidu.png"
+        },
+        {
+            "id": 4,
+            "title": "Movie Catalogue",
+            "description": "movie catalog has features to search for movies, view movie details, and much more",
+            "language": "React Typscript",
+            "github": "https://github.com/naufalyukafi/Movie-Catalog",
+            "website": "",
+            "image": ""
+        },
+        {
+            "id": 5,
+            "title": "Cashier App",
+            "description": "The cashier's website has features for finding food, sorting food, adding it to a food price list, and much more.",
+            "language": "React Typscript",
+            "github": "https://github.com/naufalyukafi/cashier-app",
+            "website": "",
+            "image": ""
         }
     ]
 }

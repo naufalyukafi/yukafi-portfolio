@@ -5,7 +5,7 @@ import { IPortfolio } from '../helpers/types';
 const PortfolioCard = (cardPortfolio: IPortfolio) => (
   <div className="portfolio__item">
     <div className="portfolio__item-header">
-      <img src="https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg" className="portfolio__item-header-poster" alt="portfolio" />
+      <img src={cardPortfolio.image === '' ? './images/image-portfolio/coming-soon.png' : cardPortfolio.image} className="portfolio__item-header-poster" alt="portfolio" />
       <div className="portfolio__item-header-stack">
         <p><span className="portfolio__item-header-stack-title">{cardPortfolio.language}</span></p>
       </div>

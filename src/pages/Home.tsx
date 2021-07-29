@@ -51,7 +51,7 @@ const Home = () => {
         <div id="portfolio" className="card__portfolio">
           <h1 className="explore__label">Portfolio</h1>
           <p className="card__portfolio-description">This is my latest project, in PWA project i always consider website performance starting from seo, accessibility, compress image so as to make website performance
-            better, to test this i use web vitals lighthouse. In the React project I have started implementing the react reducer hook state management (on this website I have also implemented it) in the future I will focus on developing even better.
+            better, to test this i use web vitals lighthouse. In the React project I have started implementing the react context for hook state management (on this website I have also implemented it) in the future I will focus on developing even better.
           </p>
           <div className="portfolio">
             {portfolio.map((project) => (
@@ -63,6 +63,7 @@ const Home = () => {
                 language={project.language}
                 github={project.github}
                 website={project.website}
+                image={project.image}
               />
             ))}
           </div>

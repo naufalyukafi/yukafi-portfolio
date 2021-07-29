@@ -28,7 +28,8 @@ export interface IPortfolio {
     description: string,
     language: string,
     github: string,
-    website: string
+    website: string,
+    image: string
 }
 
 export interface IContextValue {
